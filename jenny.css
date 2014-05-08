@@ -1,0 +1,168 @@
+body {
+	margin: 0;
+}
+
+h1 {
+	font-family: 'Stint Ultra Expanded', cursive;
+	font-weight: 300;
+	font-size: 3em;
+	color: #555555;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+h2 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 2em;
+	color: #555555;
+	margin-top: 0;
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	font-size: 1.2em;
+	line-height: 1.5em;
+	color: #444444;
+}
+
+a {
+	color: #14646b;
+	text-decoration: none;
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+}
+
+a:hover {
+	color: #21acb8;
+	text-decoration: underline;
+}
+
+.top-nav {
+	background-color: #628861;
+	height: 80px;
+	width: 100%;
+	position: fixed;
+}
+
+.top-nav h1 {
+	color: white;
+	font-size: 2em;
+	text-align: left;
+	display: inline-block;
+	padding-left: 5%;
+	width: 44%;
+}
+
+.top-nav .nav-links {
+	text-align: right;
+	width: 50%;
+	display: inline-block;
+	padding-top: 30px;
+}
+
+.top-nav .nav-links a {
+	color: white;
+	text-align: right;
+	padding-right: 15px;
+}
+
+.top-nav .nav-links a:hover {
+	color: #14646b;
+	text-decoration: none;
+}
+
+.image-wrapper {
+	display: inline-block;
+	width: 39%;
+	padding: 3%;
+	padding-top: 0;
+	padding-bottom: 40px;
+	text-align: center;
+}
+
+img {
+	max-width: 400px;
+	width: 100%;
+	min-width: 200px;
+	display: inline-block;
+}
+
+img.screenshot {
+	border: 3px solid #888888;
+	border-radius: 10px;
+}
+
+.text {
+	display: inline-block;
+	width: 52%;
+	padding-left: 2%;
+	vertical-align: top;
+	padding-bottom: 7%;
+}
+
+@media(max-width: 580px){
+	.text {
+		width: 100%;
+	}
+
+	p {
+		font-size: 1em;
+	}
+
+	h1 {
+		margin-bottom: 20px;
+	}
+
+	img {
+		width: 200px;
+		margin: 0 auto;
+	}
+
+	.top-nav h1 {
+		font-size: 1em;
+		width: 100%;
+		padding: 10px 0px;
+		margin: 0px;
+		display: inherit;
+		text-align: center;
+	}
+
+	.top-nav .nav-links {
+		font-size: .8em;
+		float: inherit;
+		display: inherit;
+		padding-top: 10px;
+		width: 100%;
+		text-align: center;
+	}
+
+	.top-nav .nav-links a {
+		padding: 10px;
+	}
+
+	.image-wrapper {
+		width: 100%;
+		padding: 20px 0px;
+	}
+}
+
+#about-me, #side-projects, #contact {
+	padding: 5%;
+	padding-top: 80px;
+
+}
+
+#about-me {
+	background-color: #c8eec7;
+}
+
+#side-projects {
+	background-color: #b7ddb6;
+}
+
+#contact {
+	background-color: #a6cca5;
+	text-align: center;
+}
