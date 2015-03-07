@@ -3,19 +3,19 @@ body {
 }
 
 h1 {
-	font-family: 'Stint Ultra Expanded', cursive;
+	font-family: 'Ubuntu', sans-serif;
 	font-weight: 300;
 	font-size: 3em;
-	color: #555555;
+	color: #2c3e50;
 	text-align: center;
 	margin-bottom: 60px;
 }
 
 h2 {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 	font-weight: 300;
 	font-size: 2em;
-	color: #555555;
+	color: #2c3e50;
 	margin-top: 0;
 }
 
@@ -24,29 +24,30 @@ p {
 	font-weight: 100;
 	font-size: 1.2em;
 	line-height: 1.5em;
-	color: #444444;
+	color: #2c3e50;
 }
 
 a {
-	color: #14646b;
+	color: #27ae60;
 	text-decoration: none;
 	font-family: 'Lato', sans-serif;
 	font-weight: 100;
 }
 
 a:hover {
-	color: #21acb8;
+	color: #2ecc71;
 	text-decoration: underline;
 }
 
 .top-nav {
-	background-color: #628861;
+	background-color: #16a085;
 	height: 80px;
 	width: 100%;
 	position: fixed;
 }
 
 .top-nav h1 {
+	/*font-family: 'Lobster Two', cursive;*/
 	color: white;
 	font-size: 2em;
 	text-align: left;
@@ -60,6 +61,7 @@ a:hover {
 	width: 50%;
 	display: inline-block;
 	padding-top: 30px;
+	vertical-align: top;
 }
 
 .top-nav .nav-links a {
@@ -155,14 +157,14 @@ img.screenshot {
 }
 
 #about-me {
-	background-color: #DDDDDD;
+	background-color: #ecf0f1;
 }
 
 #side-projects {
-	background-color: #CCCCCC;
+	background-color: #ecf0f1;
 }
 
 #contact {
-	background-color: #BBBBBB;
+	background-color: #ecf0f1;
 	text-align: center;
 }
