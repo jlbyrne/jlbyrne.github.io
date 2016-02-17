@@ -158,7 +158,7 @@ img.screenshot {
 	}
 }
 
-#about-me, #side-projects, #contact {
+#about-me, #code-samples, #contact {
 	padding: 5%;
 	padding-top: 80px;
 
@@ -168,7 +168,7 @@ img.screenshot {
 	background-color: #ecf0f1;
 }
 
-#side-projects {
+#code-samples {
 	background-color: #ecf0f1;
 }
 
