@@ -58,6 +58,7 @@ a:hover {
 	height: 80px;
 	width: 100%;
 	position: fixed;
+	z-index:100;
 }
 
 .top-nav h1 {
@@ -105,7 +106,12 @@ img {
 }
 
 img.screenshot {
-	border: 3px solid #ecf0f1;
+	border: 5px solid #ecf0f1;
+}
+
+.image-wrapper:hover img.screenshot {
+    transform: scale(1.12);
+    z-index: 10;
 }
 
 .text {
