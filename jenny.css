@@ -89,16 +89,19 @@ a:hover {
 	text-decoration: none;
 }
 
+.sample {
+	padding-bottom: 40px;
+}
+
 .image-wrapper {
 	display: inline-block;
 	width: 39%;
-	padding: 3%;
-	padding-top: 0;
-	padding-bottom: 40px;
 	text-align: center;
+	padding: 2em;
+	padding-top: 0;
 }
 
-img {
+.image-wrapper img {
 	max-width: 400px;
 	width: 100%;
 	min-width: 200px;
@@ -119,7 +122,6 @@ img.screenshot {
 	width: 52%;
 	padding-left: 2%;
 	vertical-align: top;
-	padding-bottom: 7%;
 }
 
 #about-me, #code-samples, #contact {
