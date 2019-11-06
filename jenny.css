@@ -136,7 +136,86 @@ img.screenshot {
 	text-align: center;
 }
 
-@media(max-width: 673px){
+.xepreloader {
+  width:50px;
+  height:50px;
+  display:inline-block;
+  font-size: 0;
+}
+
+@keyframes fade {
+  0%   { opacity: 0.3; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fade {
+  0%   { opacity: 0.3; }
+  100% { opacity: 1; }
+}
+
+.preloader-fade-box {
+  display: inline-block;
+  width: 33%;
+  height: 33%;
+  box-sizing: border-box;
+  border: 5px #ffffff solid;
+}
+
+.xepreloader:hover .preloader-fade-1 {
+  background-color: #01b61b;
+  -webkit-animation: fade 0.8s infinite;
+  animation: fade 0.8s infinite;
+}
+
+.xepreloader:hover .preloader-fade-2 {
+  background-color: #01C241;
+  -webkit-animation: fade 1s infinite;
+  animation: fade 1s infinite;
+}
+
+.xepreloader:hover .preloader-fade-3 {
+  background-color: #01B052;
+  -webkit-animation: fade 1.3s infinite;
+  animation: fade 1.3s infinite;
+}
+
+.xepreloader:hover .preloader-fade-4 {
+  background-color: #01C241;
+  -webkit-animation: fade 1.7s infinite;
+  animation: fade 1.7s infinite;
+}
+
+.xepreloader:hover .preloader-fade-5 {
+  background-color: #01B052;
+  -webkit-animation: fade 0.7s infinite;
+  animation: fade 0.7s infinite;
+}
+
+.xepreloader:hover .preloader-fade-6 {
+  background-color: #00946C;
+  -webkit-animation: fade 1.5s infinite;
+  animation: fade 1.5s infinite;
+}
+
+.xepreloader:hover .preloader-fade-7 {
+  background-color: #01B052;
+  -webkit-animation: fade 1.4s infinite;
+  animation: fade 1.4s infinite;
+}
+
+.xepreloader:hover .preloader-fade-8 {
+  background-color: #00946C;
+  -webkit-animation: fade 1.6s infinite;
+  animation: fade 1.6s infinite;
+}
+
+.xepreloader:hover .preloader-fade-9 {
+  background-color: #008080;
+  -webkit-animation: fade 0.9s infinite;
+  animation: fade 0.9s infinite;
+}
+
+@media(max-width: 1078px){
 	.text {
 		width: 100%;
 	}
@@ -150,9 +229,17 @@ img.screenshot {
 	}
 
 	img {
-		/*width: 200px;*/
 		margin: 0 auto;
 	}
+
+	.image-wrapper {
+		width: 100%;
+		padding: 20px 0px;
+	}
+}
+
+@media(max-width: 673px){
+
 
 	.top-nav h1 {
 		font-size: 1em;
@@ -174,10 +261,5 @@ img.screenshot {
 
 	.top-nav .nav-links a {
 		padding: 10px;
-	}
-
-	.image-wrapper {
-		width: 100%;
-		padding: 20px 0px;
 	}
 }
