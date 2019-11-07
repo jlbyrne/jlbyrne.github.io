@@ -109,6 +109,10 @@ a:hover {
 	display: inline-block;
 }
 
+.image-wrapper img.headshot {
+	max-width: 300px;
+}
+
 img.screenshot {
 	border: 5px solid #ecf0f1;
 }
